@@ -23,10 +23,9 @@ As a result, the pythonocc-core API is:
 
 * huge: (almost) all OCE features can be used. Thousands of classes/methods are available
 
-* very close to the OCE API itself: all transformations that come with the wrapper are only the ones necessary to get 
-a compileable/usable python package. No other class/method naming transformation is made. No higher level API is provided through the generation process. The result is a "raw" OCE access through python. Class names may seem ugly, for instance 'BRepPrimAPI_MakeBox', 'TopTools_MapIteratorOfMapOfShape' etc., the same for method names. Moreover, class/method naming does not follow python convention or PEP8 specification. Despite all these arguments, the decision was taken to remain as close as possible to the original library semantics to: easily port C++ OCE code to pythonocc, benefit from the original OCC documentation.
+* very close to the OCE API itself: all transformations that come with the wrapper are only the ones necessary to get a compileable/usable python package. No other class/method naming transformation is made. No higher level API is provided through the generation process. The result is a "raw" OCE access through python. Class names may seem ugly, for instance 'BRepPrimAPI_MakeBox', 'TopTools_MapIteratorOfMapOfShape' etc., the same for method names. Moreover, class/method naming does not follow python convention or PEP8 specification. Despite all these arguments, the decision was taken to remain as close as possible to the original library semantics to: easily port C++ OCE code to pythonocc, benefit from the original OCC documentation.
 
-So the deal is just: provide you with an access to the OCE world using python. Nothing more.
+So the deal is just this: to provide you with an access to the OCE world using python. Nothing more.
 
 # 2. How does it work
 
